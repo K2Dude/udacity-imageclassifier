@@ -1,2 +1,4 @@
 # udacity-imageclassifier
 My work on the second project of Udacity's Introduction to Machine Learning with TensorFlow Nanodegree Program (see Project_Image_Classifier_Project.ipynb or Project_Image_Classifier_Project.html in IMAGE CLASSIFIER PROJECT).
+
+Any file with a name along the lines of "Attempt_1" contains work from a time during this project where I had trouble importing the data due to incompatibilities between my versions of each tensorflow component; the data used here is only available in tensorflowdatasets' nightly build. I attempted to label the data manually, using some loops, file organisation, and whatnot, but ultimately decided to clean install Anaconda and build an environment centred on the latest build of tfds-nightly. After a lot of frustration, I was finally able to get it done in Project_Image_Classifier_Project.
